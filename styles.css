@@ -1,50 +1,62 @@
+/* Apply general box-sizing and reset padding/margins */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    height: 900px;
+    background-image: url('/UIUX/home_page_background.jpg'); /* Ensure this path is correct */
+}
+
+/* Image container styles */
 .image-container img {
     width: 100%;
     height: auto;
 }
 
-*{padding: 0; margin: 0; box-sizing: border-box;}
-
-body{height: 900px;}
+/* Header styles */
 header {
-	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
-	text-align: center;
-	width: 100%;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
-}
-header .overlay{
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
-    background-image: url('/UIUX/movie\ background.jpg');
-	
+    background: url('https://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg') no-repeat center center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
 }
 
+/* Overlay styles within header */
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: url('/UIUX/movie_background.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Optional: Ensure the background image covers the overlay */
+}
+
+/* Heading styles */
 h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 80px;
-	margin-bottom: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
 }
 
 h3, p {
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
 }
 
-body {
-	background-image: url(/UIUX/home_page_background.jpg);
-}
-
+/* Carousel item styles */
 .carousel-item img {
-	margin-top: 100px;
-	width: 600px; /* Example width */
-	height: 800px; /* Example height */
-	object-fit:contain;
+    margin-top: 100px;
+    width: 600px; /* Example width */
+    height: 800px; /* Example height */
+    object-fit: contain;
 }
