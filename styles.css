@@ -37,7 +37,7 @@ header .overlay {
     padding: 50px;
     color: #FFF;
     text-shadow: 1px 1px 1px #333;
-    background-image: url('/UIUX/movie_background.jpg'); /* Ensure this path is correct */
+    background-image: url('UIUX/movie_background.jpg'); /* Ensure this path is correct */
     background-size: cover; /* Optional: Ensure the background image covers the overlay */
 }
 
